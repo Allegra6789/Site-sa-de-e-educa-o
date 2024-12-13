@@ -1,0 +1,148 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Educação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .news {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .news-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(33% - 20px);
+            padding: 10px;
+            text-align: center;
+        }
+        .news-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .news-item h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .read-more {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Saúde e Educação</h1>
+        <p>Informações confiáveis e práticas para uma vida melhor</p>
+    </header>
+
+    <nav>
+        <a href="#saude">Saúde</a>
+        <a href="#educacao">Educação</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="saude" class="card">
+            <h2>Saúde</h2>
+            <p>Cuide do seu corpo e da sua mente com dicas simples e práticas. Aqui você encontra informações sobre alimentação, exercícios e saúde mental para melhorar sua qualidade de vida.</p>
+        </section>
+
+        <section id="educacao" class="card">
+            <h2>Educação</h2>
+            <p>Descubra métodos eficazes de estudo e como melhorar seu aprendizado. Nossos conteúdos são feitos para facilitar a vida de estudantes e profissionais.</p>
+        </section>
+
+        <section id="noticias" class="card">
+            <h2>Notícias</h2>
+            <div class="news">
+                <div class="news-item">
+                    <img src="https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg" alt="Pessoa meditando ao pôr do sol">
+                    <h3>Notícia 1: Avanços na Saúde Mental</h3>
+                    <p>Descubra como novos estudos estão ajudando a melhorar a saúde mental no Brasil.</p>
+                    <a class="read-more" href="noticia1.html">Leia mais</a>
+                </div>
+                <div class="news-item">
+                    <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg" alt="Crianças usando tablets na sala de aula">
+                    <h3>Notícia 2: Métodos Inovadores na Educação</h3>
+                    <p>Escolas adotam tecnologias para facilitar o aprendizado dos alunos.</p>
+                    <a class="read-more" href="noticia2.html">Leia mais</a>
+                </div>
+                <div class="news-item">
+                    <img src="https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg" alt="Pessoas em um escritório moderno">
+                    <h3>Notícia 3: Saúde e Bem-Estar no Trabalho</h3>
+                    <p>Empresas estão investindo em programas para melhorar a qualidade de vida de seus funcionários.</p>
+                    <a class="read-more" href="noticia3.html">Leia mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="card">
+            <h2>Sobre Nós</h2>
+            <p>Somos um site dedicado a promover conhecimento confiável e acessível sobre saúde e educação. Nosso objetivo é ajudar você a viver e aprender melhor.</p>
+        </section>
+
+        <section id="contato" class="card">
+            <h2>Contato</h2>
+            <p>Quer falar conosco? Envie suas dúvidas ou sugestões para <a href="mailto:contato@saudeeducacao.com">contato@saudeeducacao.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Educação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

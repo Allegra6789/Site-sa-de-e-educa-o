@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Sintomas e Medicamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Sintomas e Medicamentos</h1>
+        <p>Digite um sintoma e encontre possíveis problemas e medicamentos recomendados.</p>
+    </header>
+
+    <main>
+        <section id="consulta-sintomas">
+            <h2>Digite o Sintoma</h2>
+            <input type="text" id="sintomaInput" placeholder="Exemplo: febre, dor de cabeça...">
+            <button onclick="buscarSintoma()">Buscar</button>
+        </section>
+
+        <section id="resultado" style="display: none;">
+            <h3>Resultados</h3>
+            <p id="problema"></p>
+            <h4>Medicamentos Recomendados:</h4>
+            <ul id="medicamentos"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
